@@ -38,7 +38,7 @@ Quick summary of what the module does.
 
 	my $mesg = $ldapconnection->search(scope=>"sub","dc=someBase", filter=>"(objectClass=*)");
 
-    	my %foo = Net::LDAP::LDAPhash($mesg);
+    	my %foo = LDAPhash($mesg);
     	...
 
 =head1 EXPORT
