@@ -1,5 +1,8 @@
 Revision history for Net-LDAP-LDAPhash
 
+1.0.2	2008-03-23/23:40
+	POD clean up.
+	Make PREREQ_PM proper.
 
 1.0.1	2008-02-12/16:20
 	Fix a small error in regards to the POD example.

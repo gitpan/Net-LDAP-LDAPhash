@@ -9,6 +9,7 @@ WriteMakefile(
     ABSTRACT_FROM       => 'lib/Net/LDAP/LDAPhash.pm',
     PL_FILES            => {},
     PREREQ_PM => {
+	'Net::LDAP' => 0,
         'Test::More' => 0,
     },
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },

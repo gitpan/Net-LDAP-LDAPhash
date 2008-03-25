@@ -18,17 +18,14 @@ Net::LDAP::LDAPhash - Takes from a search and turns it into a hash.
 
 =head1 VERSION
 
-Version 1.0.0
+Version 1.0.2
 
 =cut
 
-our $VERSION = '1.0.0';
+our $VERSION = '1.0.2';
 
 
 =head1 SYNOPSIS
-
-Quick summary of what the module does.
-
 
     	use Net::LDAP::LDAPhash;
 
