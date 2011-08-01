@@ -18,11 +18,11 @@ Net::LDAP::LDAPhash - Takes from a search and turns it into a hash.
 
 =head1 VERSION
 
-Version 1.0.2
+Version 1.0.3
 
 =cut
 
-our $VERSION = '1.0.2';
+our $VERSION = '1.0.3';
 
 
 =head1 SYNOPSIS
@@ -92,7 +92,7 @@ sub  LDAPhash {
 
 =head1 AUTHOR
 
-Zane C. Bowers, C<< <vvelox at vvelox.net> >>
+Zane C. Bowers-Hadley, C<< <vvelox at vvelox.net> >>
 
 =head1 BUGS
 
@@ -107,11 +107,14 @@ You can find documentation for this module with the perldoc command.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Zane C. Bowers, all rights reserved.
+Copyright 2011 Zane C. Bowers-Hadley, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
 
+=head1 ACKNOWLEDGEMENTS
+
+WIML, #43892, pointed out out that 't/pod-coverage.t' does not exist, but does in the MANIFEST
 
 =cut
 
